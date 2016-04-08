@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'gem_test/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "gem_test"
+  spec.name          = "gem_analogj_test"
   spec.version       = GemTest::VERSION
   spec.authors       = ["Jason Kulatunga"]
   spec.email         = ["jk17@ualberta.ca"]
 
   spec.summary       = 'this is my test summary'
   spec.description   = 'this is my test description'
-  spec.homepage      = "http://www.github.com/Analogj/gem_test"
+  spec.homepage      = "http://www.github.com/Analogj/gem_analogj_test"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
